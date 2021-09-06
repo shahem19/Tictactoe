@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-!Tac-Toe Game!</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container" id="bg">
+    <section>
+        <br>
+        <div>
+            <h1> !Tic-Tac-Toe! </h1>
+        </div>
+        <br>
+        <h3 id="status"></h3>
+        <div id="board">
+            <div data-cell-index="0" class="box"></div>
+            <div data-cell-index="1" class="box"></div>
+            <div data-cell-index="2" class="box"></div>
+            <div data-cell-index="3" class="box"></div>
+            <div data-cell-index="4" class="box"></div>
+            <div data-cell-index="5" class="box"></div>
+            <div data-cell-index="6" class="box"></div>
+            <div data-cell-index="7" class="box"></div>
+            <div data-cell-index="8" class="box"></div>
+        </div>
+        <br>
+        <button class="reset btn btn-info text-light">Reset the Board!</button>
+    </section>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="tictactoe.js"></script>
+</body>
+</html>

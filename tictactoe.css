@@ -1,0 +1,36 @@
+#bg {
+    background-color: rgb(153, 51, 51); 
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: white;
+    font-size: 150px !important;
+}
+
+section {
+    text-align: center;
+}
+
+#board {
+    background-color: rgb(8, 0, 8);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 535px;
+    margin: 5px auto;
+}
+
+.box {
+    width: 170px;
+    height: 180px;
+    border: 5px solid rgb(250, 230, 233);
+    line-height: 180px;
+    font-size: 160px;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 35px;
+    color: rgb(0, 2, 8);
+}
